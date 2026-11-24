@@ -6,11 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/4-Scenes/SuperClicker.unity
+    guid: a8b6a211ab2e6674190c0c32d4192e93
   - enabled: 1
-    path: Assets/Scenes/Clicker.unity
-    guid: cd5e9217264d50d43ad58113f0226e8f
+    path: Assets/4-Scenes/SuperClickerAR.unity
+    guid: c7bfc165a93024941a475587e18e3abf
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_UseUCBPForAssetBundles: 0
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 52f9d90bef948934091f3f6901dfdb1f, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a3ced80c359896d42b85405434fa3c37, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7e100b4640ab2c248afcf2acec199017, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 40686be6b3159ee4ebb7468d1a4169df, type: 2}
